@@ -33,5 +33,5 @@ app.post('/', function (req, res) {
 })
 
 app.listen(process.env['MY_PORT'], function () {
-  console.log(`Example app listening on port ${MY_PORT}!`)
+  console.log(`Example app listening on port ${process.env['MY_PORT']}!`)
 })
