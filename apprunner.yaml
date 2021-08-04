@@ -8,3 +8,5 @@ run:
   command: node server.js
   network: 
     port: 3000
+    env: MY_PORT 
+
